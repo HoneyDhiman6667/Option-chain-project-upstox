@@ -55,7 +55,7 @@ const Dashboard = () => {
       if (!loading) {
         loadOptionsData(selectedSymbol)
       }
-    }, 100)
+    }, 2000)
     return () => clearInterval(interval)
   }, [selectedSymbol, loading])
 

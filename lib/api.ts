@@ -3,7 +3,7 @@ import type { OptionsChainData, SymbolInfo } from "@/types/options"
 // Your Upstox API configuration
 const UPSTOX_API_KEY = "3d4640a0-6cd4-4021-a22b-0cdfe08ef8c5"
 const UPSTOX_ACCESS_TOKEN =
-  "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiIzM0M2QUwiLCJqdGkiOiI2ODcxOTg0OGVlMWJjMDEzMDE0M2MwM2QiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6dHJ1ZSwiaWF0IjoxNzUyMjc1MDE2LCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3NTIzNTc2MDB9.50bQdsQJZHCmQKHARGfW1mZdwyNQTWFIFFeAa0l9J-g";
+  "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiIzM0M2QUwiLCJqdGkiOiI2ODczNjZjMGVlMWJjMDEzMDE0M2NlYjgiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6dHJ1ZSwiaWF0IjoxNzUyMzkzNDA4LCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3NTI0NDQwMDB9.IcIgP4Xt0H66CMNposCMe28L97mCCu9geJB9aYCPucs";
 const BASE_URL = "https://api.upstox.com/v2"
 
 // FNO Symbols list with proper lot sizes and instrument keys

@@ -10,8 +10,8 @@ const BASE_URL = "https://api.upstox.com/v2"
 export const getFNOSymbols = (): SymbolInfo[] => [
    { symbol: "NIFTY", name: "Nifty 50", instrument_key: "NSE_INDEX|Nifty 50", lot_size: 75 },
   { symbol: "BANKNIFTY", name: "Bank Nifty", instrument_key: "NSE_INDEX|Nifty Bank", lot_size: 35 },
-  { symbol: "FINNIFTY", name: "Fin Nifty", instrument_key: "NSE_INDEX|Nifty Financial Services", lot_size: 25 },
-  { symbol: "MIDCPNIFTY", name: "Nifty Midcap Select", instrument_key: "NSE_INDEX|Nifty Midcap Select", lot_size: 50 },
+  { symbol: "FINNIFTY", name: "Fin Nifty", instrument_key: "NSE_INDEX|Nifty Fin Service", lot_size: 25 },
+  { symbol: "MIDCPNIFTY", name: "Nifty Midcap Select", instrument_key: "NSE_INDEX|NIFTY MID SELECT", lot_size: 50 },
   { symbol: "360ONE", name: "360 ONE WAM LIMITED", instrument_key: "NSE_EQ|INE466L01038", lot_size: 500.0 },
   { symbol: "AARTIIND", name: "AARTI INDUSTRIES LTD", instrument_key: "NSE_EQ|INE769A01020", lot_size: 1325.0 },
   { symbol: "ABB", name: "ABB INDIA LIMITED", instrument_key: "NSE_EQ|INE117A01022", lot_size: 125.0 },
